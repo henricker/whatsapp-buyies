@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  whatsapp-db:
+    image: postgres:13
+    ports:
+      - '5434:5432'
+    restart: always
+    volumes:
+      - db_whatsapp_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: 'whatsapp'
+      POSTGRES_PASSWORD: 'whatsapp'
+volumes:
+  db_whatsapp_data:

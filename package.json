@@ -1,0 +1,25 @@
+{
+  "name": "test-buyes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pg": "^8.11.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "node-cache": "^5.1.2",
+    "pg": "^8.11.5",
+    "pino": "^8.20.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
